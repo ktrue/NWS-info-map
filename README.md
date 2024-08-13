@@ -145,5 +145,5 @@ and put the following in the main display section of your page:
 ```
 ## Sample Output
 
-<img src="./sample-output.png" alt="Sample output"/>
+![sample-output](https://github.com/user-attachments/assets/ac2cec96-a0b4-40ab-8265-7cb8b7d8939b)
 
