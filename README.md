@@ -87,19 +87,19 @@ $SITE['mapboxAPIkey'] = '-replace-this-with-your-API-key-here-';
 #  $timeFormat = 'D, d-M-Y g:i:s a T';  // Fri, 31-Mar-2006 4:03:22 am TZone
   $timeFormat = 'g:i a T M d, Y';  // 10:30 am CDT March 31, 2018
 
-	# see: http://leaflet-extras.github.io/leaflet-providers/preview/ for additional maps
-	# select ONE map tile provider by uncommenting the values below.
+# see: http://leaflet-extras.github.io/leaflet-providers/preview/ for additional maps
+# select ONE map tile provider by uncommenting the values below.
 
-	$mapProvider = 'Esri_WorldTopoMap'; // ESRI topo map - no key needed
-	#$mapProvider = 'OSM';     // OpenStreetMap - no key needed
-	#$mapProvider = 'Terrain'; // Terrain map by stamen.com - no key needed
-	#$mapProvider = 'OpenTopo'; // OpenTopoMap.com - no key needed
-	#$mapProvider = 'Wikimedia'; // Wikimedia map - no key needed
+  $mapProvider = 'Esri_WorldTopoMap'; // ESRI topo map - no key needed
+#$mapProvider = 'OSM';     // OpenStreetMap - no key needed
+#$mapProvider = 'Terrain'; // Terrain map by stamen.com - no key needed
+#$mapProvider = 'OpenTopo'; // OpenTopoMap.com - no key needed
+#$mapProvider = 'Wikimedia'; // Wikimedia map - no key needed
 #
-	#$mapProvider = 'MapboxSat';  // Maps by Mapbox.com - API KEY needed in $mapboxAPIkey
-	#$mapProvider = 'MapboxTer';  // Maps by Mapbox.com - API KEY needed in $mapboxAPIkey
-	$mapboxAPIkey = '--mapbox-API-key--';
-	# use this for the API key to MapBox
+#$mapProvider = 'MapboxSat';  // Maps by Mapbox.com - API KEY needed in $mapboxAPIkey
+#$mapProvider = 'MapboxTer';  // Maps by Mapbox.com - API KEY needed in $mapboxAPIkey
+#$mapboxAPIkey = '--mapbox-API-key--';
+# use this for the API key to MapBox
   $mapZoomDefault = 11;  // =11; default Leaflet Map zoom entry for display (1=world, 14=street)
 
 # end of settings -------------------------------------------------------------
@@ -139,8 +139,7 @@ and put the following in the main display section of your page:
 ```php
 <?php
   $doInclude = true;
-	include_once('NWS-info-map.php');
-
+  include_once('NWS-info-map.php');
 ?>
 ```
 ## Sample Output
