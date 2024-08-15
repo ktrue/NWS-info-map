@@ -181,7 +181,7 @@ if(!$includeMode) { // emit only if full page is generated
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="viewport" content="initial-scale=1.0" />
-<link rel="stylesheet" href="nws-info-map.css" />
+<link rel="stylesheet" href="NWS-info-map.css" />
 <title>NWS Information Map</title>
 <style type="text/css">
 <!--
