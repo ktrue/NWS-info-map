@@ -35,7 +35,7 @@ $showGizmo = true;  // set to false to exclude the gizmo
 include("top.php");
 ############################################################################
 ?>
-<link rel="stylesheet" href="NWS-info-map.css" />
+<link rel="stylesheet" href="nws-info-map.css" />
 <style type="text/css">
 <!--
 .graytitles {
