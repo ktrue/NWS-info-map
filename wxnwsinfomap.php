@@ -58,7 +58,7 @@ include("menubar.php");
 <div id="main-copy">
 
 <?php
-  if(file_exists('NWS-info-map')) {
+  if(file_exists('NWS-info-map.php')) {
   $doInclude = true;
 	include_once('NWS-info-map.php');
   } else {
